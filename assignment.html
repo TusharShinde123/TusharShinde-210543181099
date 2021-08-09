@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <style>
+   #light{
+       color: rgb(255, 255, 255);
+       background-color: #dbb3d6;
+   }
+   #dark{
+       background-color: rgb(46, 97, 139);
+   }
+  
+ 
+</style>
+</head>
+<body>
+    <div class="container" >
+        <div class="row mt-5 " id="light">
+            <div class="card-fluid border border-dark rounded col-3 p-0" id="card1">
+                    <div class="card-body">
+                        <div class="text-center mt-0"><input type="checkbox" onclick="product(1)"  id="check1" /></div>
+                            <img class="card-img" src="Photo/headphones.jpg">
+                        <div class="card-body">
+                            <span>Name: </span> <span id="name1">headphone</span><br>
+                            <span>Desciption: </span>Tap into instant wireless connectivity with the latest Bluetooth V5.0
+                            Its 50mm dynamic drivers help pump out immersive audio all day long
+                            The mighty 500mAh battery capacity offers a superior playback time of up to 20 Hours, Charging Time : 2.5 hours, Standby Time : 180 hours<br>
+                            <span>Price: </span><span id="p1">3000</span><br>
+                        <div class="row">
+                            <div class="col-2"><span>Qty:</span></div>
+                            <div class="col-6"><input value="1" id="q1" class="form-control"  type="text"></div>
+                        </div>                         
+                   </div>
+                </div>
+            </div>
+            <div class="card-fluid border border-dark rounded col-3 p-0" id="card2">
+                <div class="card-body">
+                    <div class="text-center mt-0"><input type="checkbox" onclick="product(2)"  id="check2" /></div>
+                        <img class="card-img" src="Photo/Watch.jpg">
+                    <div class="card-body">
+                        <span>Name: </span> <span id="name2">Watch</span><br>
+                        <span>Desciption: </span> 1.3"(33mm) LCD display with a round dial that sports complete capacitive and responsive touch interface for effortless control.
+                        The health monitoring feature in the watch helps you keep a track of heart rate & blood oxygen levels.
+                        The daily activity tracker records daily steps taken, calories burnt and distances covered.<br>
+                        <span>Price: </span><span id="p2">5000</span><br>
+                    <div class="row">
+                        <div class="col-2"><span>Qty:</span></div>
+                        <div class="col-6"><input value="1" id="q2" class="form-control"  type="text"></div>
+                    </div>                         
+               </div>
+            </div>
+        </div>
+        <div class="card-fluid border border-dark rounded col-3 p-0" id="card3">
+            <div class="card-body">
+                <div class="text-center mt-0"><input type="checkbox" onclick="product(3)"  id="check3" /></div>
+                    <img class="card-img" src="Photo/camera.jpg">
+                <div class="card-body">
+                    <span>Name: </span> <span id="name3">Camera</span><br>
+                    <span>Desciption: </span> 45x optical zoom (24 - 1080mm) with 90x ZoomPlus
+                    20.0 megapixels sensor
+                    Intelligent IS
+                    Wi-Fi and NFC
+                    <br>
+                    <span>Price: </span><span id="p3">10000</span><br>
+                <div class="row">
+                    <div class="col-2"><span>Qty:</span></div>
+                    <div class="col-6"><input value="1" id="q3" class="form-control"  type="text"></div>
+                </div>                         
+           </div>
+        </div>
+    </div>
+    <div class="card-fluid border border-dark rounded col-3 p-0" id="card4">
+        <div class="card-body">
+            <div class="text-center mt-0"><input type="checkbox" onclick="product(4)"  id="check4" /></div>
+                <img class="card-img" src="Photo/spact.jpg">
+            <div class="card-body">
+                <span>Name: </span> <span id="name4">spact</span><br>
+                <span>Desciption: </span > GREY JACK premium military style classic aviator sunglasses,lightweight design is ideal for driving & all out door activities.<br>
+                <span>Price: </span><span id="p4">700</span><br>
+            <div class="row">
+                <div class="col-2"><span>Qty:</span></div>
+                <div class="col-6"><input value="1" id="q4" class="form-control"  type="text"></div>
+            </div>                         
+       </div>
+    </div>
+</div>        
+</div>
+<div class="row mt-5 " id="dark">
+    <div class="card-fluid border border-dark rounded col-3 p-0" id="card5">
+            <div class="card-body">
+                <div class="text-center mt-0"><input type="checkbox" onclick="product(5)"  id="check5" /></div>
+                    <img class="card-img" src="Photo/Keyboard.jpg">
+                <div class="card-body">
+                    <span>Name: </span> <span id="name5">Keyboard</span><br>
+                    <span>Desciption: </span> Attractive design : Give your workspace a modern appearance with a stylish wireless keyboard and mouse. A slim profile with silver accents perfectly complements your PC or tablet, while the wireless design creates a clean look. Extended battery : life Confidently work for long periods with a highly efficient keyboard and mouse featuring long battery life<br>
+                    <span>Price: </span><span id="p5">3500</span><br>
+                <div class="row">
+                    <div class="col-2"><span>Qty:</span></div>
+                    <div class="col-6"><input value="1" id="q5" class="form-control"  type="text"></div>
+                </div>                         
+           </div>
+        </div>
+    </div>
+    <div class="card-fluid border border-dark rounded col-3 p-0" id="card6">
+        <div class="card-body">
+            <div class="text-center mt-0"><input type="checkbox" onclick="product(6)"  id="check6" /></div>
+                <img class="card-img" src="Photo/Power Bank.jpg">
+            <div class="card-body">
+                <span>Name: </span> <span id="name6">Power Bank</span><br>
+                <span>Desciption: </span> 20000mAh Lithium Polymer battery
+                18W Fast Charging
+                Triple port output
+                Dual input port (Micro-USB/USB-C, Charging Time : 6.9 hours
+                Power Delivery
+                Advanced 12 Layer chip protection
+                Smart power management
+                6 months domestic warranty<br>
+                <span>Price: </span><span id="p6">1100</span><br>
+            <div class="row">
+                <div class="col-2"><span>Qty:</span></div>
+                <div class="col-6"><input value="1" id="q6" class="form-control"  type="text"></div>
+            </div>                         
+       </div>
+    </div>
+</div>
+<div class="card-fluid border border-dark rounded col-3 p-0" id="card7">
+    <div class="card-body">
+        <div class="text-center mt-0"><input type="checkbox" onclick="product(7)"  id="check7" /></div>
+            <img class="card-img" src="Photo/remote.jpg">
+        <div class="card-body">
+            <span>Name: </span> <span id="name7">Remote</span><br>
+            <span>Desciption: </span> Latest generation of our best-selling Fire TV device - 50% more powerful than the 2nd generation for fast streaming in Full HD. Includes Alexa Voice Remote with power and volume buttons.
+            Less clutter, more control - All-new Alexa Voice Remote (3rd Gen) lets you use your voice to search and launch shows across apps. All-new preset buttons get you to favorite apps quickly. Plus, control power and volume on your TV and soundbar with a single remote.<br>
+            <span>Price: </span><span id="p7">250</span><br>
+        <div class="row">
+            <div class="col-2"><span>Qty:</span></div>
+            <div class="col-6"><input value="1" id="q7" class="form-control"  type="text"></div>
+        </div>                         
+   </div>
+</div>
+</div>
+<div class="card-fluid border border-dark rounded col-3 p-0" id="card8">
+<div class="card-body">
+    <div class="text-center mt-0"><input type="checkbox" onclick="product(8)"  id="check8" /></div>
+        <img class="card-img" src="Photo/LED Bulb.jpg">
+    <div class="card-body">
+        <span>Name: </span> <span id="name8">   LED bulb</span><br>
+        <span>Desciption:Music Sync Function: Let your light dance by changing colours with the rhythm of your favourite music
+            Control from anywhere: Forgot to turn off your lights? Now control lights from anywhere in the World with Wipro Smart Home App
+            16 Million Colour - Explore endless lighting possibilities with 16mn Colour Options to create perfect space for enjoying parties, festivals or a movie night </span> <br>
+        <span>Price: </span><span id="p8">300</span><br>
+    <div class="row">
+        <div class="col-2"><span>Qty:</span></div>
+        <div class="col-6"><input value="1" id="q8" class="form-control"  type="text"></div>
+    </div>                         
+</div>
+</div>
+</div>        
+</div>
+<div class="row mt-5 " id="light">
+    <div class="card-fluid border border-dark rounded col-3 p-0" id="card9">
+            <div class="card-body">
+                <div class="text-center mt-0"><input type="checkbox" onclick="product(9)"  id="check9" /></div>
+                    <img class="card-img" src="Photo/Power Strip.jpg">
+                <div class="card-body">
+                    <span>Name: </span> <span id="name9">Power Strip</span><br>
+                    <span>Desciption: </span> 4+1 power strip which comes with 4 international sockets & 1 Master switch
+                    Socket Type: International socket which is suitable for different types of plugs used around the world
+                    Safety shutter: It has a child safety shutter. Ensures safety of your loved ones against electric shock
+                    Indicator: Indicates availability of power supply ; Material: Polycarbonate ; Other Features: Versatile Sockets ; Fire-retardant<br>
+                    <span>Price: </span><span id="p9">1200</span><br>
+                <div class="row">
+                    <div class="col-2"><span>Qty:</span></div>
+                    <div class="col-6"><input value="1" id="q9" class="form-control"  type="text"></div>
+                </div>                         
+           </div>
+        </div>
+    </div>
+    <div class="card-fluid border border-dark rounded col-3 p-0" id="card10">
+        <div class="card-body">
+            <div class="text-center mt-0"><input type="checkbox" onclick="product(10)"  id="check10" /></div>
+                <img class="card-img" src="Photo/cap.jpg">
+            <div class="card-body">
+                <span>Name: </span> <span id="name10">cap</span><br>
+                <span>Desciption: </span> Fabric: 100% Acrylic
+                Pattern: Solid
+                Wash Care: Hand Wash Only. Do Not Bleach. Line Dry. Use Mild Detergent.
+                <br>
+                <span>Price: </span><span id="p10">400</span><br>
+            <div class="row">
+                <div class="col-2"><span>Qty:</span></div>
+                <div class="col-6"><input value="1" id="q10" class="form-control"  type="text"></div>
+            </div>                         
+       </div>
+    </div>
+</div>
+<div class="card-fluid border border-dark rounded col-3 p-0" id="card11">
+    <div class="card-body">
+        <div class="text-center mt-0"><input type="checkbox" onclick="product(11)"  id="check11" /></div>
+            <img class="card-img" src="Photo/Wallet.jpg">
+        <div class="card-body">
+            <span>Name: </span> <span id="name11">Wallet</span><br>
+            <span>Desciption: </span> Outer Material: Leather, Color: Brown
+            Dimensions: 10 cms x 10 cms x 1.5 cms (LxWxH)
+            Number of compartments: 10
+            2 Slip Pockets
+            2 Bill compartments
+            Warranty type: Manufacturer; 6 months manufacturer warranty
+            6 Card holders<br>
+            <span>Price: </span><span id="p11">500</span><br>
+        <div class="row">
+            <div class="col-2"><span>Qty:</span></div>
+            <div class="col-6"><input value="1" id="q11" class="form-control"  type="text"></div>
+        </div>                         
+   </div>
+</div>
+</div>
+<div class="card-fluid border border-dark rounded col-3 p-0" id="card12">
+<div class="card-body">
+    <div class="text-center mt-0"><input type="checkbox" onclick="product(12)"  id="check12" /></div>
+        <img class="card-img" src="Photo/Laptop Backpack.jpg">
+    <div class="card-body">
+        <span>Name: </span> <span id="name12">Laptop backpack</span><br>
+        <span>Desciption: </span> 2 Large Compartments + 2 Easy access front Pocket with organizersection & 2 mesh side pocket
+        Made in India. Outer Fabric: Durable PU coated Water Resistance Polyester Fabric.
+        Well cushioned Laptop compartment for upto 15.6 inch Laptop
+        Weight: 780gm; Dimensions: 14 x 18 x 7 inches (WxHxD)
+        Warranty: 1 year Warranty against manufacturing defects.<br>
+        <span>Price: </span><span id="p12">1200</span><br>
+    <div class="row">
+        <div class="col-2"><span>Qty:</span></div>
+        <div class="col-6"><input value="1" id="q12" class="form-control"  type="text"></div>
+    </div>                         
+</div>
+</div>
+</div>        
+</div>
+<div class="row mt-5 " id="dark">
+    <div class="card-fluid border border-dark rounded col-3 p-0" id="card13">
+            <div class="card-body">
+                <div class="text-center mt-0"><input type="checkbox" onclick="product(13)"  id="check13" /></div>
+                    <img class="card-img" src="Photo/Shoes.jpg">
+                <div class="card-body">
+                    <span>Name: </span> <span id="name13">Sparx Men's</span><br>
+                    <span>Desciption: </span> Sole: Rubber
+                    Closure: Lace-Up
+                    Shoe Width: Medium
+                    Material:Synthetic
+                    Lifestyle:Casual
+                    Heel Type:Flats<br>
+                    <span>Price: </span><span id="p13">4000</span><br>
+                <div class="row">
+                    <div class="col-2"><span>Qty:</span></div>
+                    <div class="col-6"><input value="1" id="q13" class="form-control"  type="text"></div>
+                </div>                         
+           </div>
+        </div>
+    </div>
+    <div class="card-fluid border border-dark rounded col-3 p-0" id="card14">
+        <div class="card-body">
+            <div class="text-center mt-0"><input type="checkbox" onclick="product(14)"  id="check14" /></div>
+                <img class="card-img" src="Photo/Mouse.jpg">
+            <div class="card-body">
+                <span>Name: </span> <span id="name14">wireless Mouse</span><br>
+                <span>Desciption: </span> 90 % reduction on clicking Noise : Quiet sound when clicking, scrolling or gliding. Enjoy a quiet experience for yourself and those around you. Sound level measured by an independent lab and verified by Quiet Mark
+                Crafted for your right hand : Scientific ergonomic design with contoured grips made of soft rubber for total comfort<br>
+                <span>Price: </span><span id="p14">1700</span><br>
+            <div class="row">
+                <div class="col-2"><span>Qty:</span></div>
+                <div class="col-6"><input value="1" id="q14" class="form-control"  type="text"></div>
+            </div>                         
+       </div>
+    </div>
+</div>
+<div class="card-fluid border border-dark rounded col-3 p-0" id="card15">
+    <div class="card-body">
+        <div class="text-center mt-0"><input type="checkbox" onclick="product(15)"  id="check15" /></div>
+            <img class="card-img" src="Photo/Speaker.jpg">
+        <div class="card-body">
+            <span>Name: </span> <span id="name15">speaker</span><br>
+            <span>Desciption: </span> Zeb-Warrior is a USB powered 2.0 speaker best fit for your gaming experience as it comes in a modern design and adds an element with its breathing RGB LED lights. Connect the usb side to either laptop or through adapter to any power source and another 3.5 mm pin to music source
+            The speaker has AUX support and comes with volume control. Bluetooth: No
+            Output power 10W RMS (5W x 2)
+            Impedance 3Ω
+            Frequency response 120Hz- 15kHz
+            Line input 3.5mm jack
+            1 Year warranty-from the date of purchase<br>
+            <span>Price: </span><span id="p15">3500</span><br>
+        <div class="row">
+            <div class="col-2"><span>Qty:</span></div>
+            <div class="col-6"><input value="1" id="q15" class="form-control"  type="text"></div>
+        </div>                         
+   </div>
+</div>
+</div>
+<div class="card-fluid border border-dark rounded col-3 p-0" id="card16">
+<div class="card-body">
+    <div class="text-center mt-0"><input type="checkbox" onclick="product(16)"  id="check16" /></div>
+        <img class="card-img" src="Photo/Phone Back Cover.jpg">
+    <div class="card-body">
+        <span>Name: </span> <span id="name16">Mobile Back Cover</span><br>
+        <span>Desciption: </span> Compatible with iQOO Z3 5G Only
+        Semi-Transparent Blackened Matte Back
+        Tactile Feel Stylish Red Contrast Buttons
+        Anti-Fingerprint & Scratch Resistant Design
+        Shock Proof & Protective Case<br>
+        <span>Price: </span><span id="p16">1500</span><br>
+    <div class="row">
+        <div class="col-2"><span>Qty:</span></div>
+        <div class="col-6"><input value="1" id="q16" class="form-control"  type="text"></div>
+    </div>                         
+</div>
+</div>
+</div>        
+</div>
+
+
+<br>
+<h4>Ordered Item</h4>
+<div class="row">
+    <div class="col-12">
+        <table id="tab" class="">
+
+        </table>
+    </div>
+    
+    <br>
+</div>
+<hr>
+<button type="button" class="btn btn-primary" onclick="totalSum()">Display Total Amount for Shopping</button><br><br><br><br><br>
+    </div>
+    <script>
+
+var sum=0;
+var count=0;
+
+        function product(a){
+    var c = document.getElementById('check'+a)
+    if (c.checked) {
+
+       document.getElementById('q'+a) .disabled=true
+        
+	   document.getElementById('card'+a).style.backgroundColor='#F4D160'
+       var ele=document.createElement("tr")
+       ele.id="row"+a
+       document.getElementById('tab').appendChild(ele)
+
+       var el=document.createElement('td')
+       el.id=a
+       document.getElementById('row'+a).appendChild(el)
+
+       var el=document.createElement('td')
+       el.id="item"+a
+       document.getElementById('row'+a).appendChild(el)
+
+       var el=document.createElement('td')
+       el.id="price"+a
+       document.getElementById('row'+a).appendChild(el)
+
+       var el=document.createElement('td')
+       el.id="quantity"+a
+       document.getElementById('row'+a).appendChild(el)
+
+       var el=document.createElement('td')
+       el.id="total"+a
+       document.getElementById('row'+a).appendChild(el)
+      
+     var name = document.getElementById("name"+a)
+     var price =document.getElementById("p"+a)
+     var qt = document.getElementById("q"+a).value
+     var pr=parseInt(price.textContent)*qt
+        sum+=pr
+     count++
+     document.getElementById(a).innerHTML=count+'.&emsp;'
+     document.getElementById("item"+a).innerHTML=name.textContent+'&emsp;'
+     document.getElementById("price"+a).innerHTML=price.textContent+'&emsp;'
+     document.getElementById("quantity"+a).innerHTML=qt+'&emsp;'
+     document.getElementById('total'+a).innerHTML=pr+"&emsp;"
+
+    }else{
+        count--
+        var price =document.getElementById("p"+a)
+        var qt = document.getElementById("q"+a).value
+        var pr=parseInt(price.textContent)*qt
+        sum-=pr
+        document.getElementById('q'+a) .disabled=false
+        document.getElementById(a).innerHTML=count+'.&emsp;'
+    document.getElementById('tab').removeChild(document.getElementById('row'+a))
+        if (1<=a&&a<=4||9<=a&&a<=12) {
+            document.getElementById('card'+a).style.backgroundColor='#C2FFD9'
+          
+        } else if (5<=a&&a<=8||13<=a&&a<=16) {
+                document.getElementById('card'+a).style.backgroundColor='#seagreen'
+               
+            }
+    }
+}
+function totalSum(){
+alert("Total Amount: "+sum)
+}
+
+    </script>
+</body>
+</html>
